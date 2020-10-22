@@ -1,0 +1,11 @@
+Steps followed for building the model using opencv
+
+1. First the video file is placed in a folder and the python working directory is changed to the respective folder
+
+2. Then a harcascade  xml file is created by using cascade-trainer-gui app.
+
+3. Different images from the web is exracted and saved inside the folder with the folling two classifications:
+	-vechile images in folder p.
+	- other images in folder n.
+
+4. After successfully training, the xml file is created and used in the final model for detection of vechiles.
